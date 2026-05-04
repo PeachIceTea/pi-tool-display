@@ -1504,7 +1504,6 @@ export function registerToolDisplayOverrides(
       if (carrier) {
         carrier[BASH_RESULT_STATE_KEY] = rendered;
       }
-      rendered.invalidate();
       return rendered;
     },
     });
